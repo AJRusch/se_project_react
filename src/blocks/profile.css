@@ -1,0 +1,16 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  max-width: 1360px;
+}
+
+.profile__sidebar {
+  display: flex;
+  flex-direction: row;
+  margin: 0 116px 0 0;
+  justify-content: center;
+}
+
+.profile__clothes-section {
+  margin: 0;
+}
