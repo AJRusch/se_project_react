@@ -1,0 +1,58 @@
+.sidebar__user-container {
+  display: flex;
+  margin: 47px 0 0 0;
+  gap: 16px;
+}
+
+.sidebar__avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.sidebar__username {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+  font-family: "CabinetGrotesk-Bold", Arial, sans-serif;
+  margin: 10px 0 0 0;
+  text-align: left;
+  max-width: 40px;
+}
+
+.sidebar__menu-container {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0 0 0;
+  gap: 8px;
+}
+
+.sidebar__edit-info-btn {
+  border: none;
+  font-family: "CabinetGrotesk-Bold", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  padding: 0;
+}
+
+.sidebar__logout-btn {
+  border: none;
+  font-family: "CabinetGrotesk-Bold", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  padding: 0;
+}
